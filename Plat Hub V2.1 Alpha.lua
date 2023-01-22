@@ -2,12 +2,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Project X Loader", "GrapeTheme")
 
 -- Main Section
-local Main = Window:NewTab("Project X")
-local MainSection = Main:NewSection("Project X Loader")
+local Main = Window:NewTab("Project Valix")
+local MainSection = Main:NewSection("Project Valix Loader")
 
 
-MainSection:NewButton("Load Project X", "Loads Project X", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvorik/Project-X/main/Project%20Hub%202x.lua", true))()
+MainSection:NewButton("Load Project Valix", "Loads Project Valix", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Alvorik/Project-Valix/main/ProjectValix", true))()
 end)
 
 MainSection:NewButton("Load Old Project X", "Loads The Old Project X Might get you banned", function()
