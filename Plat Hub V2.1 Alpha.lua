@@ -32,21 +32,6 @@ local Window = Rayfield:CreateWindow({
 -- Menu Stuff
 local Loader = Window:CreateTab("Loader") -- Title, Image
 local MenuSection = Loader:CreateSection("Project Valix Loader Stuff")
-
-getgenv().SelectedStuff = nil
-
-getgenv().SelectedOption = true
-
--- Functions
-
-
-
-function SelectedScriptHub()
-    if getgenv().SelectedOption == true then do
-        getgenv().SelectedStuff
-    end
-
-end
 -- Buttons
 
 local Button = Loader:CreateButton({
