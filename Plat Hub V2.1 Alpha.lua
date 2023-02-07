@@ -1,5 +1,4 @@
--- Welcome to Project Valix, If you're seeing this apply for developer in Our Discord ("https://discord.gg/t7sXgFNmgq")
--- This Script Hub was Created by ALVORIKK and is Currently being worked on By the Developers in the discord above.
+-- This Script Hub was Created by ALVORIKK and is Currently being worked on By the Developers in the discord Here. ("https://discord.gg/t7sXgFNmgq")
 
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
