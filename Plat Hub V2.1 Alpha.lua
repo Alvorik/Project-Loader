@@ -37,8 +37,7 @@ local MenuSection = Loader:CreateSection("Project Valix Loader Stuff")
 local Button = Loader:CreateButton({
     Name = "Execute New Project Valix",
     Callback = function()
-        getgenv().SelectedOption = true
-        SelectedScriptHub()
+
 
         Rayfield:Notify({
             Title = "Project Valix | Loader",
@@ -66,8 +65,6 @@ local Button = Loader:CreateButton({
 local Button = Loader:CreateButton({
     Name = "Execute Old Valix",
     Callback = function()
-        getgenv().SelectedOption = true
-        SelectedScriptHub()
 
         Rayfield:Notify({
             Title = "Project Valix | Loader",
@@ -91,5 +88,3 @@ local Button = Loader:CreateButton({
 
     end,
 })
-
-
